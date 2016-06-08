@@ -12,3 +12,60 @@ D.  Explain what a Merkle Tree is.
     What is the Merkle root?
     What is the function of a certificate in this data structure?
     
+(A)recursion is Recursion is a basic programming technique you can use in Java,in which a method 
+   calls itself to solve some problem.We can use it when we put the function itself into the function itself.
+    termination step is the first step of the loop when the recursion stops.
+    Recursion step is the last step of the loop that use the method itself in the loop itself.
+    
+(B)
+Stack is a LIFO (last in first out) data structure. 
+Queue is a FIFO (first in first out) data structure.
+
+(C)
+public class DLnk{
+  
+  private Object payload;
+  private DLnk next;
+  private DLnk prev;
+  
+   public DLnk(DLnk next, DLnk prev, Object payload){
+    this.next = next;
+    this.prev=prev;
+    this.payload = payload;}
+    }
+    
+(D) Merkle tree is a tree in which every non-leaf node is labelled with the hash of the labels or values 
+    (in case of leaves) of its child nodes.
+   
+    structure and purpose of a Merkle Tree:They allow efficient and secure verification of the contents 
+    of large data structures.
+    
+    Merkle root is the hash of all the hashes of all the transactions in the block.
+    
+    The function of a certificate in this data structure is way faster than other loops.
+    
+   
+   
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
